@@ -1,0 +1,89 @@
+body {
+  background: url('../img/mainbg.jpg');
+  background-size: cover;
+}
+
+/* Pada Login */
+.box {
+  width: 55%;
+  margin: 80px auto;
+  padding: 50px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: rgba(200, 200, 200, 0.5);)
+}
+
+/* Pada Admin */
+#logobjm {
+  width: 40%;
+}
+
+#logotutwuri {
+  width: 90%;
+}
+
+hr {
+  margin:  5px;
+}
+
+.tinggi {
+  height: 450px;
+}
+
+.content {
+  padding-top: 20px;
+  background-color: rgba(255, 255,255, 0.5);
+  box-shadow: 3px 3px 8px #aaa;
+  border: 0.5px solid #eee;
+  height: 100%;
+}
+
+/* Menu */
+.navigasi {
+  padding-top: 20px;
+  text-align: right;
+}
+
+  .navigasi ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .navigasi li {
+    padding: 10px 5px 10px 10px;
+  }
+
+  .navigasi li:hover {
+    background-color: rgba(100, 100, 50, 0.1);
+    font-weight: bolder;
+  }
+
+  .navigasi a {
+    text-decoration: none;
+    color: #333;
+  }
+    .navigasi li:hover .submenu {
+      display: inline;
+    }
+
+    .navigasi .submenu {
+      /* width: 30%; */
+      position: absolute;
+      left: -170px;
+      top: 78px;
+      z-index: 99;
+      width: 240px;
+      height: 300px;
+      display: none;
+      background: rgba(250, 250, 250, 0.8);
+      box-shadow: 5px 5px 2px #aaa;
+    }
+
+    .navigasi .submenu ul {
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 5px;
+    }
